@@ -1,3 +1,5 @@
+\\stringbuilder + for loops 
+
 public class BackspaceStringCompare {
   
   public boolean backspaceCompare(String a, String b) {
@@ -29,3 +31,5 @@ public class BackspaceStringCompare {
         return false;
     }
 }
+
+\\took 18 minutes
