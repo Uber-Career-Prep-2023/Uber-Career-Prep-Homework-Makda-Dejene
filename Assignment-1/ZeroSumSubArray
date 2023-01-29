@@ -1,7 +1,7 @@
 \\ used hashmap
 import java.util.HashSet;
 
-public class ZeroSumSubArrays {
+public class ZeroSumSubArray {
 
 	public static int countSubarrays( int[] arr) {
         HashSet<Integer> set = new HashSet();
@@ -22,7 +22,7 @@ public class ZeroSumSubArrays {
     public static void main(String[] args) {
         int[] arr = {4, 5, 2, -1, -3, -3, 4, 6, -7};
        
-        ZeroSumSubArrays s = new ZeroSumSubArrays();
+        ZeroSumSubArray s = new ZeroSumSubArray();
         System.out.println(s.countSubarrays(arr));
     }
 
