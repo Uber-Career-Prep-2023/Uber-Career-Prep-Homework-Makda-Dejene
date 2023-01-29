@@ -1,4 +1,4 @@
-\\ used hashmap
+// used hashmap
 import java.util.HashSet;
 
 public class ZeroSumSubArray {
@@ -28,4 +28,4 @@ public class ZeroSumSubArray {
 
 }
 
-\\took 20 minutes
+// took 20 minutes
