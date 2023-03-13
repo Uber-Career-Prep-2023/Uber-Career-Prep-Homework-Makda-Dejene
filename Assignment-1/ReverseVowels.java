@@ -1,6 +1,6 @@
 //forward-backward two-pointer
 
-public class ReverseArray {
+public class ReverseVowels {
 
     public boolean Vowel(char ch) {
         if(ch =='a' ||ch =='o' || ch == 'i'|| ch == 'u' || ch == 'e' || ch ==
@@ -47,7 +47,7 @@ public class ReverseArray {
     public static void main(String[] args) {
         String s = "Care";
 
-        ReverseArray r = new ReverseArray();
+        ReverseVowels r = new ReverseVowels();
         System.out.println(r.reverse(s));
     }
 }
