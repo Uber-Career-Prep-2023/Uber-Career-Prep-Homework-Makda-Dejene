@@ -1,6 +1,6 @@
 public class DedupArray {
   
-  public void removeDuplicates {
+  public void removeDuplicates(int[] nums) {
 
     if(nums.length == 0 || nums.length == 1)
       return;
