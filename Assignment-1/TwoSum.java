@@ -1,3 +1,4 @@
+// one-directional hashing
 public class TwoSum {
   
   public getTwoSum(int[] nums, int k) {
@@ -21,3 +22,5 @@ public class TwoSum {
   }
   
 }
+
+//took 15 minutes
