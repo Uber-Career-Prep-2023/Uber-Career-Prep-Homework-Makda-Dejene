@@ -1,4 +1,4 @@
-\\stringbuilder + for loops 
+//stringbuilder + for loops 
 
 public class BackspaceStringCompare {
   
@@ -32,4 +32,4 @@ public class BackspaceStringCompare {
     }
 }
 
-\\took 18 minutes
+//took 18 minutes
