@@ -1,3 +1,5 @@
+//sort array then solve
+
 public class MergeIntervals {
   public int[][] getMerge(int[][] nums) {
    if(nums == null || nums.length == 0){
@@ -20,15 +22,17 @@ public class MergeIntervals {
 		
     int j = 0; 
     
-    for(int i = 0; i < nums.length - 1; i++) { // iterate end time
-        if(start[i + 1] > end[i]) { // when collapse appears
-              result.add(new int[] {start[j], end[i]}); // record
-              j = i + 1; // move previous start time 
+    for(int i = 0; i < nums.length - 1; i++) { 
+        if(start[i + 1] > end[i]) {
+              result.add(new int[] {start[j], end[i]}); 
+              j = i + 1; 
         }    
    }
     
-   result.add(new int[] {start[j], end[nums.length - 1]}); // add last one
+   result.add(new int[] {start[j], end[nums.length - 1]}); 
    return result.toArray(new int[result.size()][]);
     
   }
 }
+
+//took 30 minutes
