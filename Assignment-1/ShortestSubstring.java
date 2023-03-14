@@ -1,3 +1,4 @@
+//variable size sliding window
 public class ShortestSubstring {
     public String minimumWindow(String one, String two) {
         int[] map = new int[128];
@@ -30,3 +31,5 @@ public class ShortestSubstring {
     }
   
 }
+
+\\took 35 minutes
