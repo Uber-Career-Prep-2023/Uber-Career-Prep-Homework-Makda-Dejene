@@ -1,4 +1,4 @@
-\\fixed-size sliding window
+//fixed-size sliding window
 
 public class DedupArray {
   
@@ -26,4 +26,4 @@ public class DedupArray {
   }
 }
 
-\\ took 15 minutes
+// took 15 minutes
