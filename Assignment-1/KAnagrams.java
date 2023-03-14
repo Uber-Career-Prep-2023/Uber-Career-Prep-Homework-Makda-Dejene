@@ -1,3 +1,5 @@
+\\one-directional hashing 
+
 public class KAnagrams {
 
     public boolean findKAnagarams(String one, String two, int k) {
@@ -27,3 +29,6 @@ public class KAnagrams {
   }
 
 }
+
+
+\\took 23 minutes
