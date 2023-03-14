@@ -1,3 +1,5 @@
+\\fixed-size sliding window
+
 public class DedupArray {
   
   public void removeDuplicates(int[] nums) {
@@ -23,3 +25,5 @@ public class DedupArray {
     }
   }
 }
+
+\\ took 15 minutes
