@@ -9,3 +9,5 @@ public class MissingInteger{
 
   }
 }
+
+//took 10 minutes
