@@ -5,7 +5,7 @@ public class ShortestSubstring {
             map[c] += 1;
         }
         int begin = 0;
-        int len = Integer.MAX_VALUE;
+        int length = Integer.MAX_VALUE;
         int count = two.length();
         for (int left=0, right=0; right<one.length(); right++) {
             char c = one.charAt(right);
@@ -14,19 +14,19 @@ public class ShortestSubstring {
               count--; 
             }
             while (count == 0) {
-                char lc = one.charAt(left);
-                map[lc]++;
-                if (map[lc]>0) {
-                    if (right-left+1<len) {
+                char d = one.charAt(left);
+                map[d]++;
+                if (map[d]>0) {
+                    if (right-left+1<length) {
                         begin = left;
-                        len = right-left+1;
+                        length = right-left+1;
                     }
                     count++;
                 }
                 left++;
             }
         }
-        return len==Integer.MAX_VALUE?"":one.substring(begin, begin+len);
+        return length==Integer.MAX_VALUE?"":one.substring(begin, begin+length);
     }
   
 }
