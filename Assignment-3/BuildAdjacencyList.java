@@ -1,5 +1,6 @@
 import java.util.*;
 
+class BuildAdjacencyList {
     Map<Integer, Set<Integer>> adjacencySet(List<Pair<Integer, Integer>> edges) {
         Map<Integer, Set<Integer>> graph = new HashMap<>();
         
